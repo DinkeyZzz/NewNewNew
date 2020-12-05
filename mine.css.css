@@ -1,0 +1,83 @@
+#red {
+  text-align: center;
+  color: red;
+
+}
+
+.blue {
+    text-align: center;
+    color: blue;
+
+  
+  }
+
+  /* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+/* This is orfder of imporrtance*/
+.big-text {
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(9, 0, 128);
+    padding: 16px;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+body {background-color:#00ff00;}
+#p1 {background-color:#ff0000;}
+
+
+/* This is order of importance*/
+.big-text {
+    font-size: 28px;
+    color: rgb(9, 0, 128);
+    padding: 16px;
+}
+/*just adding some color*/
+body 
+    {background-color:#bbff00;}
+
+
+
+
+    div {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      
+    }
+    .div1{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        }
+        
+
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
